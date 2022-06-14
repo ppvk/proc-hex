@@ -1,0 +1,19 @@
+@font-face {
+  font-family: "unifont";
+  src: url("./unifont.ttf");
+}
+
+@font-face {
+  font-family: "unifont_upper";
+  src: url("./unifont_upper.ttf");
+}
+
+* {
+  font-family: "unifont", "unifont_upper";
+  font-size: 16px;
+}
+
+canvas {
+  image-rendering: crisp-edges;
+  background: #222;
+}
